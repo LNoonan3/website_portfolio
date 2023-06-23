@@ -1,0 +1,118 @@
+body{
+    background-color: rgb(221, 220, 220);
+}
+
+header{
+    background-color: rgba(180, 180, 180, 0.582);
+    margin: 0px -25px 0px -25px;
+    text-align: center;
+    border-radius: 15px 50px;
+}
+
+footer{
+    background-color: rgba(180, 180, 180, 0.582);
+    margin: 0px -25px fill -25px;
+    text-align: center;
+    border-radius: 15px 50px;
+}
+
+html{
+    margin: -8px 30px -8px 30px ;
+}
+
+
+video{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+p{
+    font-size: large;
+}
+
+section{
+    width: auto;
+}
+
+/* 
+ * Always set the map height explicitly to define the size of the div element
+ * that contains the map. 
+ */
+ #map {
+    height: 100%;
+  }
+
+@media screen and (max-width: 800px) {
+    .left, .main, .right {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }
+
+  #container {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    background: rgb(255, 255, 255);
+  }
+  #animate {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-color: red;
+  }
+  
+label, input, textarea {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+form {
+    width: 30em;
+}
+
+.form-control {
+    margin-bottom: 1em;
+}
+
+textarea {
+    min-height: 10em;
+}
+
+.form-control input,
+.form-control textarea {
+padding: 0.5em; /* More space inside the boxes */
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+li a.active {
+  color: white;
+  background-color: #5a5c5b;
+}
+
+
